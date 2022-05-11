@@ -22,7 +22,7 @@ function App() {
 
   let removeMatkul = (i) => {
     let newFormMatkul = [...matkul];
-    newFormMatkul.splice(i, 1);
+    newFormMatkul.splice((i.length-1), 1);
     setMatkul(newFormMatkul)
   }
 
